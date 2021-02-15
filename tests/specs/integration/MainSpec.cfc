@@ -42,7 +42,7 @@ component
 
 			it( "can render the homepage", function() {
 				var event = this.get( "main.index" );
-				expect( event.getValue( name = "welcomemessage", private = true ) ).toBe( "Welcome to ColdBox!" );
+				expect( event.getValue( name = "welcomemessage", private = true ) ).toBe( "Welcome to Zero to Hero!" );
 			} );
 
 			it( "can render some restful data", function() {
